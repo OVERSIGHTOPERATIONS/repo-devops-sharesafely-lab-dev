@@ -1,5 +1,6 @@
 # repo-devops-sharesafely-lab-dev
 Create a web application where users can securely upload files to Azure Blob Storage.
+
 Let's break it down and get started with building your web application in Python.
 
 1. Storage Setup
@@ -92,4 +93,4 @@ def main(mytimer: func.TimerRequest) -> None:
             blob_client = container_client.get_blob_client(blob.name)
             blob_client.delete_blob()
 
-By following these steps, you'll have a secure, functional web application that allows users to upload files and generate unique, time-limited links for sharing
+By following these steps, you'll have a secure, functional web application that allows users to upload files and generate unique, time-limited links for sharing.
